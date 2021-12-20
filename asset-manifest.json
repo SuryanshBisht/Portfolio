@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my_web/static/css/main.4e2f3d5a.css",
-    "main.js": "/my_web/static/js/main.ac9b0b6d.js",
-    "static/js/787.6285dcf0.chunk.js": "/my_web/static/js/787.6285dcf0.chunk.js",
-    "static/media/Passport_size_photo.png": "/my_web/static/media/Passport_size_photo.f0268141f2c71d949dd7.png",
-    "static/media/gmail.png": "/my_web/static/media/gmail.4bdf6627e0898a3a2961.png",
-    "static/media/github.png": "/my_web/static/media/github.41a95b4fb939bdb3b1f8.png",
-    "static/media/whatsapp.png": "/my_web/static/media/whatsapp.a38cc938361511803c55.png",
-    "index.html": "/my_web/index.html",
-    "main.4e2f3d5a.css.map": "/my_web/static/css/main.4e2f3d5a.css.map",
-    "main.ac9b0b6d.js.map": "/my_web/static/js/main.ac9b0b6d.js.map",
-    "787.6285dcf0.chunk.js.map": "/my_web/static/js/787.6285dcf0.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.4e2f3d5a.css",
+    "main.js": "/Portfolio/static/js/main.371d00a7.js",
+    "static/js/787.6285dcf0.chunk.js": "/Portfolio/static/js/787.6285dcf0.chunk.js",
+    "static/media/Passport_size_photo.png": "/Portfolio/static/media/Passport_size_photo.f0268141f2c71d949dd7.png",
+    "static/media/gmail.png": "/Portfolio/static/media/gmail.4bdf6627e0898a3a2961.png",
+    "static/media/github.png": "/Portfolio/static/media/github.41a95b4fb939bdb3b1f8.png",
+    "static/media/whatsapp.png": "/Portfolio/static/media/whatsapp.a38cc938361511803c55.png",
+    "index.html": "/Portfolio/index.html",
+    "main.4e2f3d5a.css.map": "/Portfolio/static/css/main.4e2f3d5a.css.map",
+    "main.371d00a7.js.map": "/Portfolio/static/js/main.371d00a7.js.map",
+    "787.6285dcf0.chunk.js.map": "/Portfolio/static/js/787.6285dcf0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e2f3d5a.css",
-    "static/js/main.ac9b0b6d.js"
+    "static/js/main.371d00a7.js"
   ]
 }
