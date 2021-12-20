@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.desc{
+    font-size:24px;
+    width:60%;
+    text-align: center;
+}
+.contact-btn{
+    /* width: 82px;
+    height: 36px; */
+    padding: 8px;
+    font-size: 18px;
+    background-color: green;
+    color:white;
+    border-radius: 4px;
+}

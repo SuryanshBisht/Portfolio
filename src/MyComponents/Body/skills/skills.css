@@ -1,0 +1,42 @@
+.heading{
+    text-align: center;
+    font-size: 48px;
+    margin: 48px;
+}
+.skills{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill{
+    width:144px;
+    height:190px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin:8px;
+}
+.skill_logo{
+    height: 108px;
+    animation: grow 1s ease-in;
+}
+.skill_logo:hover{
+    height: 144px;
+}
+.skill_name{
+    font-size: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width:"720px") {
+    .skill_name{
+        font-size: 12px;
+    }
+    .heading{
+        font-size:24px;
+        margin:24px;
+    }
+}

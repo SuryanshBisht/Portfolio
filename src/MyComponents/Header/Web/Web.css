@@ -1,0 +1,25 @@
+
+.web{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+.web-option{
+    font-size: 20px;
+    margin-right: 16px;
+    font-weight: 700;
+}
+.web-option a{
+    text-decoration: none;
+    color: black;
+    display:flex;
+    align-items: center;
+}
+#resume{
+    border :solid;
+    border-radius:4px;
+    padding: 4px;
+}
+.web-option:last-child{
+    margin-right:0px;
+}
