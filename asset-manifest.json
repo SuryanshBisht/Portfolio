@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4e2f3d5a.css",
-    "main.js": "/Portfolio/static/js/main.371d00a7.js",
+    "main.css": "/Portfolio/static/css/main.d7e86cd9.css",
+    "main.js": "/Portfolio/static/js/main.1d530a54.js",
     "static/js/787.6285dcf0.chunk.js": "/Portfolio/static/js/787.6285dcf0.chunk.js",
+    "static/media/chess_pieces.jpg": "/Portfolio/static/media/chess_pieces.c8077383e241c2488f98.jpg",
+    "static/media/reading.jpg": "/Portfolio/static/media/reading.c79bba4d456073d18e87.jpg",
+    "static/media/speedcubing.jpg": "/Portfolio/static/media/speedcubing.72d5d77ad1582c19e111.jpg",
+    "static/media/Table tennis-amico.svg": "/Portfolio/static/media/Table tennis-amico.520c34b7dd8dad37e5a4f2b698dfde2c.svg",
     "static/media/Passport_size_photo.png": "/Portfolio/static/media/Passport_size_photo.f0268141f2c71d949dd7.png",
-    "static/media/gmail.png": "/Portfolio/static/media/gmail.4bdf6627e0898a3a2961.png",
     "static/media/github.png": "/Portfolio/static/media/github.41a95b4fb939bdb3b1f8.png",
     "static/media/whatsapp.png": "/Portfolio/static/media/whatsapp.a38cc938361511803c55.png",
     "index.html": "/Portfolio/index.html",
-    "main.4e2f3d5a.css.map": "/Portfolio/static/css/main.4e2f3d5a.css.map",
-    "main.371d00a7.js.map": "/Portfolio/static/js/main.371d00a7.js.map",
+    "main.d7e86cd9.css.map": "/Portfolio/static/css/main.d7e86cd9.css.map",
+    "main.1d530a54.js.map": "/Portfolio/static/js/main.1d530a54.js.map",
     "787.6285dcf0.chunk.js.map": "/Portfolio/static/js/787.6285dcf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2f3d5a.css",
-    "static/js/main.371d00a7.js"
+    "static/css/main.d7e86cd9.css",
+    "static/js/main.1d530a54.js"
   ]
 }
