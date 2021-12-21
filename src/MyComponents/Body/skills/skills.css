@@ -1,8 +1,3 @@
-.heading{
-    text-align: center;
-    font-size: 48px;
-    margin: 48px;
-}
 .skills{
     display:flex;
     justify-content: space-evenly;
@@ -21,7 +16,7 @@
 }
 .skill_logo{
     height: 108px;
-    animation: grow 1s ease-in;
+    transition: height .1s ease-out;
 }
 .skill_logo:hover{
     height: 144px;
@@ -30,13 +25,14 @@
     font-size: 24px;
     text-align: center;
 }
-
-@media screen and (max-width:"720px") {
-    .skill_name{
-        font-size: 12px;
+@media  only screen and (max-width:720px) {
+    .skill_logo, .skill_logo:hover{
+        height:96px;
     }
-    .heading{
+    .skill_name{
         font-size:24px;
-        margin:24px;
+    }
+    .skill{
+        justify-content: center;
     }
 }

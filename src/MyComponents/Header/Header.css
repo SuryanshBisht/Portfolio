@@ -1,35 +1,51 @@
 
+.buffer{
+    height:80px;
+    width: 100%;
+    position:relative;
+    background-color: rgb(77, 76, 76);
+}
+/*Debugging line add it in any file except app.css*/
+/* * {
+    outline: 1px solid #f00 !important;
+  } */
 .header{
     display: flex;
     justify-content: space-between;
-    flex: 1;/*makes it take all space it can*/
-    padding: 12px ;
-    position: relative;
-    align-items: center;
+    width: 100%;
+    /*makes it take all space it can */
+    position: fixed;
+    align-items:center;
+    opacity: 80%;
+    top:-8px;
+    background-color:white;
 }
 .menu{
     display: flex;
-    flex:1;
     justify-content: flex-end;
+    margin-right: 24px;
 }
 .menu-icon{
     font-size:24px;
+   
 }
 .mobile-menu{
     display:none;
+    margin:24px;
 }
 .web-menu{
     display:flex;
+   
 }
 .logo{
     display: flex;
     font-size:36px;
+    margin:15px;
     font-family: 'EB Garamond', serif;
     padding: 6px;
     color:black;
     border:4px inset black;
     border-radius:4px;
-    
 }
 
 @media only screen and (max-width: 720px){
@@ -39,8 +55,14 @@
     .web-menu{
         display: none;
     }
+    .menu{
+        margin:0;
+    }
     .logo{
         font-size:24px;
         padding: 4px;
+    }
+    .buffer{
+        height:62px;
     }
 }

@@ -1,7 +1,7 @@
 .heading{
     text-align: center;
     font-size: 48px;
-    margin: 48px;
+    margin: 48px auto;
 }
 .hobbies{
     display:flex;
@@ -11,32 +11,34 @@
     flex-wrap: wrap;
 }
 .hobby{
-    width:144px;
-    height:190px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin:8px;
+}     
+.hobby_image_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 22vw;
 }
-/* .hobby_logo{
-    height: 108px;
-    animation: grow 1s ease-in;
-} */
-.hobby_logo:hover{
-    height: 144px;
-}
+.hobby_image{
+    width:20vw;
+}  
 .hobby_name{
     font-size: 24px;
     text-align: center;
 }
 
-@media screen and (max-width:"720px") {
-    .hobby_name{
-        font-size: 12px;
+@media only screen and (max-width:720px) {
+    .hobby_image_container{
+        width: 300px;
+        height: 300px;
+        margin:24px auto;
     }
-    .heading{
-        font-size:24px;
-        margin:24px;
+    .hobby_image{
+        width: 300px;
     }
+    
 }

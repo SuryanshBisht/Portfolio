@@ -9,9 +9,9 @@ export const SocialMedia = () => {
     data.map(
     (item)=>{
             return(
-            <a href={item.link}>
+            <a href={item.link} target = "_blank" key={item.platform}>
                 <div className="social-icon-div">
-                    <img src={item.icon} key={item.sno}className="social-icon" alt="" />
+                    <img src={item.icon} className="social-icon" alt="" />
                 </div>
             </a>
         );

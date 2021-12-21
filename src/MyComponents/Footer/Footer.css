@@ -1,12 +1,13 @@
 .contact{
     display: flex;
-    height: 30vh;
+    height: 40vh;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .desc{
     font-size:24px;
+    margin:5vh;
     width:60%;
     text-align: center;
 }

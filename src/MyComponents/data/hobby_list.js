@@ -1,21 +1,21 @@
-export const  HobbyList = [
+export const HobbyList = [
     {
-        logo:"../../assets/reading.png",
+        pic:require("../../assets/reading.jpg"),
         sno:1,
         name: "Reading"
     },
     {
-        logo:"../../assets/speedcubing.jpg",
+        pic:require("../../assets/speedcubing.jpg"),
         sno:2,
         name: "Speedcubing"
     },
     {
-        logo:"../../assets/Table tennis-amico.svg",
+        pic:require("../../assets/Table tennis-amico.svg").default,
         sno:3,
         name: "Table Tennis"
     },
     {
-        logo:"../../assets/chess.jpg",
+        pic:require("../../assets/chess_pieces.jpg"),
         sno:4,
         name: "Chess"
     },

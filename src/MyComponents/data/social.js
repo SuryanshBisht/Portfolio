@@ -3,7 +3,7 @@ export const SocialData =  [
         platform:"Facebook",
         sno:1,
         icon: require("../../assets/icons/facebook.png"),
-        link:"#"
+        link:"https://www.facebook.com/profile.php?id=100057002217316"
         
     },
     {
@@ -14,7 +14,7 @@ export const SocialData =  [
     },
     {
         platform:"Whatsapp",
-        sno:3,
+        sno:5,
         icon: require("../../assets/icons/whatsapp.png"),
         link:"#"
     },
@@ -22,12 +22,12 @@ export const SocialData =  [
         platform:"LinkedIn",
         sno:4,
         icon: require("../../assets/icons/linkedin.png"),
-        link:"#"
+        link:"https://www.linkedin.com/in/suryansh-singh-bisht-3b38871b8/"
     },
     {
-        platform:"Gmail",
-        sno:5,
-        icon: require("../../assets/icons/gmail.png"),
-        link:"#"
+        platform:"Discord",
+        sno:3,
+        icon: require("../../assets/icons/discord.png"),
+        link:"https://discordapp.com/users/891585254937214986"
     },
 ]

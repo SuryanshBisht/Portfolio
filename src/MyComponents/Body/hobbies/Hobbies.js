@@ -12,8 +12,10 @@ export const Hobbies = () => {
            {data.map(
                (item) => {
                 return(
-                    <div className="hobby">
-                        <img src={item.logo} key={item.sno}alt="" className="hobby_image"/>
+                    <div className="hobby" key={item.name}>
+                    <div className="hobby_image_container">
+                    <img src={item.pic} alt="" className="hobby_image"/>
+                    </div>
                     <div className="hobby_name">
                         {item.name}
                     </div>

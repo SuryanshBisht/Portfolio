@@ -13,8 +13,8 @@ export const Skills = () => {
            {data.map(
                (item) => {
                 return(
-                    <div className="skill">
-                        <img src={item.logo} key = {item.sno} alt="" className="skill_logo"/>
+                    <div className="skill" key = {item.name} >
+                        <img src={item.logo} alt="" className="skill_logo"/>
                     <div className="skill_name">
                         {item.name}
                     </div>
