@@ -9,7 +9,7 @@ export const Home = () => {
                 Hi There, I'm <br/>
                 <span className="name">Suryansh Singh Bisht</span><br/>
                 and I love experimenting with the web<br/><br/>
-                Second year at IIT Roorkee
+                Sophomore at IIT Roorkee
             </div>
             
             <div >

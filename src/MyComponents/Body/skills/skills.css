@@ -24,12 +24,18 @@
 .skill_name{
     font-size: 24px;
     text-align: center;
+    visibility: hidden;
+    transition: visibility .1s ease-out;
+}
+.skill_logo:hover+.skill_name{
+    visibility: visible;
 }
 @media  only screen and (max-width:720px) {
     .skill_logo, .skill_logo:hover{
         height:96px;
     }
     .skill_name{
+        visibility: visible;
         font-size:24px;
     }
     .skill{

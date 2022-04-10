@@ -23,5 +23,10 @@ export const SkillList= [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
         sno:5,
         name:"C++"
-    }
+    },
+    {
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+        sno:6,
+        name:"Django"
+    },
 ]
